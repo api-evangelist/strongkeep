@@ -1,7 +1,17 @@
 aid: strongkeep
 name: Strongkeep
-description: Strongkeep is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  StrongKeep is a cybersecurity platform built for small and medium-sized
+  businesses (SMBs) that lack a dedicated IT team or a large security budget. It
+  bundles malware protection, scam and phishing protection, security-awareness
+  ("secure habits") training, human-risk monitoring, and compliance readiness
+  (such as Cyber Essentials) into a single dashboard, with most customers
+  reportedly going live within 60 minutes. StrongKeep offers a free no-install
+  security scan, plans starting at $39/month, and vertical solutions for
+  healthcare clinics and professional-services firms. It is a portfolio company
+  of 500 Global. StrongKeep does not currently publish a public API, developer
+  portal, or SDKs; this profile was enriched by the API Evangelist pipeline from
+  its public web surface (identity, security.txt, and domain-security probes).
 url: https://raw.githubusercontent.com/api-evangelist/strongkeep/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.strongkeep.com/assets/images/landing_page_bg.avif
 tags:
 - Company
+- Cybersecurity
+- Security
+- SMB
+- Malware Protection
+- Phishing
+- Security Awareness Training
+- Compliance
+- Human Risk
+- 500 Global
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,36 @@ maintainers:
 common:
 - type: Website
   url: https://strongkeep.com
+- type: Pricing
+  url: https://strongkeep.com/pricing/
+- type: SignUp
+  url: https://app.strongkeep.com/register
+- type: Login
+  url: https://app.strongkeep.com/login
+- type: Support
+  url: https://help.strongkeep.com
+- type: HelpCenter
+  url: https://help.strongkeep.com
+- type: Blog
+  url: https://strongkeep.com/news-updates/
+- type: TermsOfService
+  url: https://strongkeep.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.strongkeep.com/privacy-policy/
+- type: SecurityTxt
+  url: https://www.strongkeep.com/.well-known/security.txt
+- type: WellKnown
+  url: well-known/strongkeep-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/strongkeep-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.strongkeep.com/.well-known/security.txt
+- type: DomainSecurity
+  url: security/strongkeep-domain-security.yml
+- type: LLMsTxt
+  url: llms/strongkeep-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

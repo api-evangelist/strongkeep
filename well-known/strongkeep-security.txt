@@ -1,0 +1,8 @@
+# StrongKeep Responsible Disclosure
+# https://www.rfc-editor.org/rfc/rfc9116
+Contact: mailto:hello@strongkeep.com
+Contact: https://www.strongkeep.com/contact-form/
+Expires: 2027-06-09T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.strongkeep.com/.well-known/security.txt
+Policy: https://www.strongkeep.com/privacy-policy/
