@@ -43,7 +43,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 image: https://www.strongkeep.com/assets/images/landing_page_bg.avif
 tags:
 - Company
@@ -74,6 +74,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://strongkeep.com/feed.xml
+  type: BlogRSS
 - type: Website
   url: https://strongkeep.com
 - type: Pricing
